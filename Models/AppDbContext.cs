@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using System; // 👈 This is necessary for DateTime
 
 public class AppDbContext : DbContext
 {
